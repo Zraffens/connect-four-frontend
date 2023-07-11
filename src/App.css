@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   padding: 20px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 h1 {
@@ -45,6 +46,21 @@ h1 {
   font-weight: bold;
   color: #ff4136;
   animation: pulse 1s infinite;
+}
+
+.hidden {
+  /* display: none; */
+}
+
+.btn {
+  margin-top: 1em;
+  cursor: pointer;
+  padding: 0.3em;
+  font-size: 25px;
+  background: #626262;
+  border: 1px solid #626262;
+  color: white;
+  border-radius: 5px;
 }
 
 @keyframes pulse {
